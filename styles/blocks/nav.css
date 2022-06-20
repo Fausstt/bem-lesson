@@ -1,0 +1,25 @@
+.nav_logo{
+  display: inline-flex;
+  height: 50px;
+}
+
+.nav__list{
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav_link{
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.nav_link:hover{
+  color: #7676b9;
+}
+
+
+.nav_link--active{
+  color: #d3ae36;
+  border-bottom: 3px solid #7676b9;
+}
